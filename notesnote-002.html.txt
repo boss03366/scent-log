@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雨後佛手柑與岩蘭草｜ScentLog</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>ScentLog｜個人香氛筆記庫</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <span class="tag">柑橘草本調</span>
+    <h1 class="detail-title">雨後佛手柑與岩蘭草</h1>
+
+    <div class="meta-box">
+      <p><strong>前調：</strong>義大利佛手柑、苦橙葉</p>
+      <p><strong>中調：</strong>天竺葵、鼠尾草</p>
+      <p><strong>後調：</strong>海地岩蘭草、橡木苔</p>
+      <p><strong>建議季節：</strong>春季、夏季</p>
+    </div>
+
+    <article class="note-content">
+      <p>前調是相當明亮的苦橙與佛手柑果皮香氣，帶著一絲微苦的青草感，在悶熱的天氣裡聞起來特別解膩。</p>
+      <p>後調的岩蘭草帶來類似雨後濕潤土壤與樹根的沉穩氣息，讓整體不會因為柑橘揮發而顯得單薄，留香表現比一般古龍水更持久。</p>
+    </article>
+
+    <a href="../index.html" class="back-link">← 返回筆記列表</a>
+  </main>
+</body>
+</html>

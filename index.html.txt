@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScentLog｜個人香氛與氣味筆記庫</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>ScentLog｜個人香氛筆記庫</h1>
+      <p>記錄日常試香、香調層次與氣味記憶的個人知識庫</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card-grid">
+      <a href="notes/note-001.html" class="note-card">
+        <span class="tag">木質茶香調</span>
+        <h2>晨光雪松與白茶</h2>
+        <p>清冷白茶交織乾燥雪松，適合需要專注的平日早晨。</p>
+      </a>
+
+      <a href="notes/note-002.html" class="note-card">
+        <span class="tag">柑橘草本調</span>
+        <h2>雨後佛手柑與岩蘭草</h2>
+        <p>微酸果皮氣息轉為沉穩泥土木質，清爽不甜膩。</p>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

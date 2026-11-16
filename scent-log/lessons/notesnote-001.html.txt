@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>晨光雪松與白茶｜ScentLog</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>ScentLog｜個人香氛筆記庫</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <span class="tag">木質茶香調</span>
+    <h1 class="detail-title">晨光雪松與白茶</h1>
+
+    <div class="meta-box">
+      <p><strong>前調：</strong>佛手柑、白茶葉</p>
+      <p><strong>中調：</strong>小荳蔻、無花果葉</p>
+      <p><strong>後調：</strong>維吉尼亞雪松、白麝香</p>
+      <p><strong>建議季節：</strong>四季皆宜（特別適合秋冬與冷氣房）</p>
+    </div>
+
+    <article class="note-content">
+      <p>剛噴灑時帶有微涼的茶葉清香，沒有一般柑橘調的尖銳感，反而像是清晨剛泡開的一壺熱白茶，帶著淡淡水氣。</p>
+      <p>約半小時後，小荳蔻的微辛與雪松的乾燥木質逐漸浮現，整體氣味變得乾淨、內斂，非常適合上課、閱讀或需要靜心工作的場合。</p>
+    </article>
+
+    <a href="../index.html" class="back-link">← 返回筆記列表</a>
+  </main>
+</body>
+</html>

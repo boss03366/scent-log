@@ -1,0 +1,130 @@
+:root {
+  --bg-color: #FAF8F5;
+  --card-bg: #FFFFFF;
+  --text-main: #2C2A29;
+  --text-muted: #6E6863;
+  --accent: #8C7A6B;
+  --border-color: #E6E0D8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  line-height: 1.75;
+  padding-bottom: 60px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border-color);
+  padding: 36px 0 28px;
+  margin-bottom: 36px;
+}
+
+.site-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.site-header p {
+  color: var(--text-muted);
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+/* 首頁卡片網格 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.note-card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 22px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(44, 42, 41, 0.06);
+}
+
+.note-card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 8px;
+}
+
+.note-card p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+/* 分類標籤 */
+.tag {
+  display: inline-block;
+  background-color: #EFEAE4;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+/* 內頁樣式 */
+.detail-title {
+  font-size: 1.75rem;
+  margin: 12px 0 20px;
+}
+
+.meta-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 28px;
+}
+
+.meta-box p {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.meta-box p:last-child {
+  margin-bottom: 0;
+}
+
+.note-content p {
+  margin-bottom: 16px;
+  font-size: 1.02rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 28px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
